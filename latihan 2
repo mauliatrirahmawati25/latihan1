@@ -3,9 +3,9 @@
 <style>
     *{
         padding: 10px;
-        margin: 10px;
+        margin: 0px;
         height: 100%;
-        box-sizing: ;
+        box-sizing: border-box;
     }
     body{
         background-color: blanchedalmond;
@@ -13,24 +13,25 @@
         flex-direction: column;
     }
     header{
-        font-size: xx-large; 
+        font-size: large; 
         background-color: brown;
         text-align: center;
         padding: 20px;
         display: flex;
-        justify-content: space-around;
-        flex: 1;
+        justify-content: space-between;
+        flex: 2;
     }
     section{
-        background-color: palevioletred;
+        background-color: royalblue;
         display: flex;
-        padding: 0px;
+        column-gap: 10px;
+        width: 100%;
     }
     aside{
         background-color: darkgoldenrod;
-        font-size: 25pt;
-        display: flex;
+        font-size: large;
         padding: 0px;
+        width: 20%;
     }
     main{
         background-color: royalblue;
@@ -41,6 +42,7 @@
     }
     article{
         width: 100%;
+        background-color: silver;
     }
     footer{
         background-color: olive;
@@ -48,13 +50,35 @@
         text-align: center;
         flex: 1;
         }
+    ul{
+        display: flex;
+        list-style: none;
+        }
+    li{
+        margin-right: 5px;
+        }
+
 </style>
 </head>
 
 <body>
-    <header>HEADER</header>
+    <header>
+        <h1>HEADER</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        <aside>SIDEBAR</aside>
+        <aside>
+            <a href="link1.html">link 1</a>
+            <br>
+            <a href="link2.html">link 2</a>
+            <br>
+        </aside>
         <section>
             <article>bagian 1</article>
             <article>bagian 2</article>
