@@ -1,0 +1,66 @@
+<html>
+<head>
+<style>
+    *{
+        padding: 10px;
+        margin: 10px;
+        height: 100%;
+        box-sizing: ;
+    }
+    body{
+        background-color: blanchedalmond;
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        font-size: xx-large; 
+        background-color: brown;
+        text-align: center;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        flex: 1;
+    }
+    section{
+        background-color: palevioletred;
+        display: flex;
+        padding: 0px;
+    }
+    aside{
+        background-color: darkgoldenrod;
+        font-size: 25pt;
+        display: flex;
+        padding: 0px;
+    }
+    main{
+        background-color: royalblue;
+        font-style: inherit;
+        display:flex;
+        flex: 4;
+        height: 80vp;
+    }
+    article{
+        width: 100%;
+    }
+    footer{
+        background-color: olive;
+        font-size: xx-large;
+        text-align: center;
+        flex: 1;
+        }
+</style>
+</head>
+
+<body>
+    <header>HEADER</header>
+    <main>
+        <aside>SIDEBAR</aside>
+        <section>
+            <article>bagian 1</article>
+            <article>bagian 2</article>
+            <article>bagian 3</article>
+        </section>
+        </main>
+    <footer>FOOTER</footer>
+</body>
+</html>
